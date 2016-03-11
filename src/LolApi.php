@@ -37,6 +37,7 @@ use devLazarev\lolapi\methods\Stats;
 use devLazarev\lolapi\methods\Status;
 use devLazarev\lolapi\methods\Summoner;
 use devLazarev\lolapi\methods\Team;
+use devLazarev\lolapi\methods\Requester;
 
 class LolApi
 {
@@ -112,12 +113,18 @@ class LolApi
      */
     public $team;
 
-
+    /**
+     * @param $apiKey
+     */
     public function __construct($apiKey)
     {
         $this->apiKey = $apiKey;
     }
 
+    /**
+     * @param $name
+     * @return Requester
+     */
     public function getInstance($name)
     {
         if (property_exists($this, $name)) {
