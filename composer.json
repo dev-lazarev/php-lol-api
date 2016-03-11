@@ -1,0 +1,32 @@
+{
+  "name": "dev-lazarev/php-lol-api",
+  "version":"1.0.0",
+  "description": "League of Legends PHP API",
+  "keywords": [
+    "League of Legends",
+    "lol",
+    "api",
+    "php"
+  ],
+  "homepage": "https://github.com/dev-lazarev/php-lol-api",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksey",
+      "email": "to@dev-lazarev.com",
+      "homepage": "https://dev-lazarev.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*",
+    "lib-curl": "*"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "devLazarev\\lolapi\\": "src"
+    }
+  }
+}
