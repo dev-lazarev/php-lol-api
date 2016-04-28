@@ -29,6 +29,7 @@ class CurrentGame extends Requester
     use RegionsPlatform;
 
     protected $version = '1.0';
+    protected $url = 'https://{region}.api.pvp.net/';
 
     /**
      * @return array
