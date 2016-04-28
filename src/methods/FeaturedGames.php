@@ -27,6 +27,7 @@ namespace devLazarev\lolapi\methods;
 class FeaturedGames extends Requester
 {
     protected $version = '1.0';
+    protected $url = 'https://{region}.api.pvp.net/';
 
     /**
      * @return array
