@@ -1,6 +1,5 @@
 {
   "name": "dev-lazarev/php-lol-api",
-  "version":"1.0.1",
   "description": "League of Legends PHP API",
   "keywords": [
     "League of Legends",
